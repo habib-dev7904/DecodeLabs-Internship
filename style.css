@@ -1,0 +1,46 @@
+body{
+   background-color: rgb(17, 7, 7);
+   color: white;
+}
+.home{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    h2{
+        color: white;
+        margin-top: 100px ;
+        font-size: 50px;
+        span{
+            color: green;
+        }
+    }
+}
+.about{
+   text-align: center;
+   h2{
+    color: white;
+    font-size: 40px;
+    
+   }
+}
+.project{
+    padding-left: 100px;
+    h2{
+        color: white;
+        font-size: 40px;
+        text-align: center;
+    }
+    .boxes{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+.contact{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: bisque;
+    color: black;
+    height: 40px;
+    margin-bottom: 0%;
+}
